@@ -1,0 +1,2 @@
+C:\dev\Security\tor-keylogger\Keylogger.Win32\bin\x86\Debug\mini-tor.pdb
+C:\dev\Security\tor-keylogger\Keylogger.Win32\bin\obj\x86\Debug\mini-tor\mini-tor.pdb

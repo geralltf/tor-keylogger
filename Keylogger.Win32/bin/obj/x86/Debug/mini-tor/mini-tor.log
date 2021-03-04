@@ -1,0 +1,93 @@
+﻿  main.cpp
+  MiniTor.cpp
+  test.cpp
+  common.cpp
+  console.cpp
+  logger.cpp
+  memory.cpp
+  string.cpp
+  time.cpp
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\time.cpp(83,25): warning C4244: '=': conversion from 'time_t' to 'mini::time_type', possible loss of data
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\time.cpp(103,16): warning C4244: 'argument': conversion from 'time_t' to 'uint32_t', possible loss of data
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\console.cpp(102,8): warning C4100: 'color': unreferenced formal parameter
+  crt0.cpp
+  base16.cpp
+  base64.cpp
+  provider.cpp
+  random.cpp
+  base_encode.cpp
+  curve25519.cpp
+  provider.cpp
+  random.cpp
+  base32.cpp
+  curve25519.cpp
+  curve25519-donna.cpp
+  file.cpp
+  file_attributes.cpp
+  file_enumerator.cpp
+  path.cpp
+  ssl_context.cpp
+  http.cpp
+  ssl_socket.cpp
+  ssl_stream.cpp
+  tcp_socket.cpp
+  event.cpp
+  mutex.cpp
+  thread.cpp
+  cell.cpp
+  circuit.cpp
+  circuit_node_crypto_state.cpp
+  consensus.cpp
+  circuit_node.cpp
+  hidden_service.cpp
+  onion_router.cpp
+  relay_cell.cpp
+  tor_socket.cpp
+  tor_stream.cpp
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\memory.h(100,1): warning C4996: 'std::is_pod_v<mini::stack_buffer<mini::byte_type,16>>': was declared deprecated (compiling source file mini\tor\circuit_node_crypto_state.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\type_traits(517,52): message : see declaration of 'std::is_pod_v' (compiling source file mini\tor\circuit_node_crypto_state.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\crypto\cng\aes.inl(298): message : see reference to function template instantiation 'T &mini::memory::zero<mini::stack_buffer<mini::byte_type,16>>(T &)' being compiled
+          with
+          [
+              T=mini::stack_buffer<mini::byte_type,16>
+          ] (compiling source file mini\tor\circuit_node_crypto_state.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\crypto\cng\aes.inl(297): message : while compiling class template member function 'void mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>::init(mini::crypto::cng::aes_key<mini::crypto::cipher_mode::ctr,128> &&)' (compiling source file mini\tor\circuit_node_crypto_state.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\tor\circuit_node_crypto_state.cpp(29): message : see reference to function template instantiation 'void mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>::init(mini::crypto::cng::aes_key<mini::crypto::cipher_mode::ctr,128> &&)' being compiled
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\tor\circuit_node_crypto_state.h(38): message : see reference to class template instantiation 'mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>' being compiled (compiling source file mini\tor\circuit_node_crypto_state.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\memory.h(100,22): warning C4996: 'std::is_pod_v<mini::stack_buffer<mini::byte_type,16>>': was declared deprecated (compiling source file mini\tor\circuit_node_crypto_state.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\type_traits(517,52): message : see declaration of 'std::is_pod_v' (compiling source file mini\tor\circuit_node_crypto_state.cpp)
+  hybrid_encryption.cpp
+  key_agreement_tap.cpp
+  key_agreement_ntor.cpp
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\memory.h(100,1): warning C4996: 'std::is_pod_v<mini::stack_buffer<mini::byte_type,16>>': was declared deprecated (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\type_traits(517,52): message : see declaration of 'std::is_pod_v' (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\crypto\cng\aes.inl(298): message : see reference to function template instantiation 'T &mini::memory::zero<mini::stack_buffer<mini::byte_type,16>>(T &)' being compiled
+          with
+          [
+              T=mini::stack_buffer<mini::byte_type,16>
+          ] (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\crypto\cng\aes.inl(297): message : while compiling class template member function 'void mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>::init(mini::crypto::cng::aes_key<mini::crypto::cipher_mode::ctr,128> &&)' (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\crypto\cng\aes.inl(287): message : see reference to function template instantiation 'void mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>::init(mini::crypto::cng::aes_key<mini::crypto::cipher_mode::ctr,128> &&)' being compiled (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\crypto\cng\aes.inl(286): message : while compiling class template member function 'mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>::aes(mini::crypto::cng::aes_key<mini::crypto::cipher_mode::ctr,128> &&)' (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\crypto\cng\aes.inl(416): message : see reference to function template instantiation 'mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>::aes(mini::crypto::cng::aes_key<mini::crypto::cipher_mode::ctr,128> &&)' being compiled (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\crypto\cng\aes.inl(415): message : while compiling class template member function 'mini::byte_buffer mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>::crypt(mini::crypto::cng::aes_key<mini::crypto::cipher_mode::ctr,128> &&,const mini::byte_buffer_ref)' (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\tor\crypto\hybrid_encryption.cpp(42): message : see reference to function template instantiation 'mini::byte_buffer mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>::crypt(mini::crypto::cng::aes_key<mini::crypto::cipher_mode::ctr,128> &&,const mini::byte_buffer_ref)' being compiled
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\tor\crypto\hybrid_encryption.cpp(42): message : see reference to class template instantiation 'mini::crypto::cng::aes<mini::crypto::cipher_mode::ctr,128>' being compiled
+C:\dev\Security\tor-keylogger\Keylogger.Win32\minitor\mini\memory.h(100,22): warning C4996: 'std::is_pod_v<mini::stack_buffer<mini::byte_type,16>>': was declared deprecated (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\type_traits(517,52): message : see declaration of 'std::is_pod_v' (compiling source file mini\tor\crypto\hybrid_encryption.cpp)
+  consensus_parser.cpp
+  hidden_service_descriptor_parser.cpp
+  introduction_point_parser.cpp
+  onion_router_descriptor_parser.cpp
+  api_set_enumerator.cpp
+  api_set_value_enumerator.cpp
+  export_directory_enumerator.cpp
+  import_directory_enumerator.cpp
+  import_thunk_enumerator.cpp
+  relocation_directory_enumerator.cpp
+  relocation_fixup_enumerator.cpp
+  resource_directory_enumerator.cpp
+  section_enumerator.cpp
+  tls_directory_enumerator.cpp
+     Creating library C:\dev\Security\tor-keylogger\Keylogger.Win32\bin\x86\Debug\mini-msvcrt.lib and object C:\dev\Security\tor-keylogger\Keylogger.Win32\bin\x86\Debug\mini-msvcrt.exp
+  mini-tor.vcxproj -> C:\dev\Security\tor-keylogger\Keylogger.Win32\bin\x86\Debug\mini-tor.lib

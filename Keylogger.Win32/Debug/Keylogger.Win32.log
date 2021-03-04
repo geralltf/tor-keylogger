@@ -1,0 +1,70 @@
+﻿  aes.cpp
+  base64.cpp
+C:\dev\Security\tor-keylogger\Keylogger.Win32\base64.cpp(103,69): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+C:\dev\Security\tor-keylogger\Keylogger.Win32\base64.cpp(120,65): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+  Crypto.cpp
+C:\dev\Security\tor-keylogger\Keylogger.Win32\Crypto.cpp(161,8): warning C4101: 'previousProtection': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\Crypto.cpp(161,28): warning C4101: 'modifiedProtection': unreferenced local variable
+  Debugging.cpp
+  EntryPoint.cpp
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(50,10): warning C4101: 'EntryPoint': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(44,42): warning C4101: 'VirusRva': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(44,27): warning C4101: 'EntryPointRva': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(53,15): warning C4101: 'si': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(44,52): warning C4101: 'write': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(46,25): warning C4101: 'DecryptedVirus': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(51,9): warning C4101: 'hFile': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(54,22): warning C4101: 'pi': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(44,11): warning C4101: 'Hash': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(43,8): warning C4101: 'Buffer': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(46,41): warning C4101: 'ptr': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(44,17): warning C4101: 'FileSize': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(46,9): warning C4101: 'EncryptedVirus': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(158,20): warning C4018: '<': signed/unsigned mismatch
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(426,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(433,13): warning C4018: '>=': signed/unsigned mismatch
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(332,16): warning C4101: 'out': unreferenced local variable
+C:\dev\Security\tor-keylogger\Keylogger.Win32\EntryPoint.cpp(329,7): warning C4101: 'c': unreferenced local variable
+  Keylogger.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2468,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\dev\Security\tor-keylogger\Keylogger.Win32\Keylogger.cpp(100): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\dev\Security\tor-keylogger\Keylogger.Win32\Keylogger.cpp(100): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Stealth.cpp
+  Generating Code...
+  Keylogger.Win32.vcxproj -> C:\dev\Security\tor-keylogger\Keylogger.Win32\Debug\Keylogger.Win32.exe

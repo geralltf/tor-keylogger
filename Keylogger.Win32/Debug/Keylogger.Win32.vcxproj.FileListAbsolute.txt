@@ -1,0 +1,2 @@
+C:\dev\Security\tor-keylogger\Keylogger.Win32\Debug\Keylogger.Win32.exe
+C:\dev\Security\tor-keylogger\Keylogger.Win32\Debug\Keylogger.Win32.pdb

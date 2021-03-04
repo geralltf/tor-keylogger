@@ -1,1 +1,36 @@
-﻿  lua-5.4.2.vcxproj -> C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\Release\lua-5.4.2.lib
+﻿  lapi.cpp
+  lauxlib.cpp
+  lbaselib.cpp
+  lcode.cpp
+  lcorolib.cpp
+  lctype.cpp
+  ldblib.cpp
+  ldebug.cpp
+  ldo.cpp
+  ldump.cpp
+  lfunc.cpp
+  lgc.cpp
+  linit.cpp
+  liolib.cpp
+  llex.cpp
+  lmathlib.cpp
+  lmem.cpp
+  loadlib.cpp
+  lobject.cpp
+  lopcodes.cpp
+  Compiling...
+  loslib.cpp
+  lparser.cpp
+  lstate.cpp
+  lstring.cpp
+  lstrlib.cpp
+  ltable.cpp
+  ltablib.cpp
+  ltm.cpp
+  lua.cpp
+  luac.cpp
+  lundump.cpp
+  lutf8lib.cpp
+  lvm.cpp
+  lzio.cpp
+  lua-5.4.2.vcxproj -> C:\dev\Security\tor-keylogger\Keylogger.Win32\Release\lua-5.4.2.lib
