@@ -1,0 +1,4 @@
+C:\Users\Gerallt\Downloads\libtomcrypt-develop\libtommath\MSVC_Win32_Debug\Intermediate\tommath.pdb
+C:\Users\Gerallt\Downloads\libtomcrypt-develop\libtommath\MSVC_Win32_Debug\tommath.pdb
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\libtomcrypt-develop\libtommath\MSVC_Win32_Debug\Intermediate\tommath.pdb
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\libtomcrypt-develop\libtommath\MSVC_Win32_Debug\tommath.pdb

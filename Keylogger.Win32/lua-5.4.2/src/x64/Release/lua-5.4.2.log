@@ -1,0 +1,41 @@
+﻿  lapi.cpp
+  lauxlib.cpp
+  lbaselib.cpp
+  lcode.cpp
+  lcorolib.cpp
+  lctype.cpp
+  ldblib.cpp
+  ldebug.cpp
+  ldo.cpp
+  ldump.cpp
+  lfunc.cpp
+  lgc.cpp
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\lua-5.4.2\src\lgc.cpp(441,21): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\lua-5.4.2\src\lgc.cpp(518,21): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\lua-5.4.2\src\lgc.cpp(720,19): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\lua-5.4.2\src\lgc.cpp(739,23): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  linit.cpp
+  liolib.cpp
+  llex.cpp
+  lmathlib.cpp
+  lmem.cpp
+  loadlib.cpp
+  lobject.cpp
+  lopcodes.cpp
+  Compiling...
+  loslib.cpp
+  lparser.cpp
+  lstate.cpp
+  lstring.cpp
+  lstrlib.cpp
+  ltable.cpp
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\lua-5.4.2\src\ltable.cpp(343,5): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  ltablib.cpp
+  ltm.cpp
+  lua.cpp
+  luac.cpp
+  lundump.cpp
+  lutf8lib.cpp
+  lvm.cpp
+  lzio.cpp
+  lua-5.4.2.vcxproj -> C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\x64\Release\lua-5.4.2.lib

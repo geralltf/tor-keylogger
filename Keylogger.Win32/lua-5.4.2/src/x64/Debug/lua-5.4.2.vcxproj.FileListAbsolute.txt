@@ -1,0 +1,2 @@
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\x64\Debug\lua-5.4.2.pdb
+C:\dev\Security\Keylogger-master\windows\keylogger.win32\Keylogger.Win32\lua-5.4.2\src\x64\Debug\lua-5.4.2.pdb

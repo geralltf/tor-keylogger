@@ -1,0 +1,23 @@
+version: 0.1.{build}
+branches:
+  only:
+  - master
+skip_tags: true
+image: Visual Studio 2017
+configuration: Release_Small
+platform: x86
+before_build:
+- cmd: curl -L -o kkrunchy.zip http://www.farbrausch.de/~fg/kkrunchy/kkrunchy_023a2.zip && 7z e kkrunchy.zip *.exe -r
+build:
+  project: mini-tor.sln
+  parallel: true
+  verbosity: minimal
+artifacts:
+- path: bin\x86\$(Configuration)\*.exe
+  name: mini-tor
+deploy:
+- provider: GitHub
+  tag: v$(appveyor_build_version)
+  auth_token:
+    secure: bBXezT+UC8HSipR8wUFj1RrOPgsFjRvJxoBERczc7dJuFH08RhqfPuuJcvpQQsCR
+  prerelease: false
