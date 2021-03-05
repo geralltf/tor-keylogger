@@ -8,3 +8,5 @@ Also contains Lua to be used later to implement a polymorphic engine.
 Only build that works is Debug/X86 - 32 bit build targets with Debug. 
 Couldn't build everything in Release as there are linker errors and X64 targets don't build either.
 Release builds would be ideal for optimisations and to run stealth code (which requires self-modification of virtual memory you only get safely when built in release.)
+
+Only support for Windows, and all projects are upgraded to VS2019 build tools.
